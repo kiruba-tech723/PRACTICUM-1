@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1.page-title {
+            text-align: center;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            line-height: 1.4;
+        }
+        .contact-info .name {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border: 1px solid #999;
+            object-fit: cover;
+        }
+        .links-bar {
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #999;
+            padding: 10px 0;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .links-bar a {
+            color: #1a0dab;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+        .links-bar .social-text {
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .section-content {
+            font-size: 14px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #999;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            font-weight: bold;
+        }
+        ol, ul {
+            margin: 5px 0;
+            padding-left: 20px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <h1 class="page-title">My Resume Page</h1>
+
+    <div class="header-section">
+        <div class="contact-info">
+            <div class="name">Kirubakaran M</div>
+            <div>12/2, No.4</div>
+            <div>Ashok Nager</div>
+            <div>Chennai - 600015</div>
+            <div>Ph: 9876543210</div>
+            <div>Email : markzuckenberg@gmail.com</div>
+        </div>
+        <div>
+            <img class="profile-img" src="zuvk.jpg" alt="Profile Picture">
+        </div>
+    </div>
+
+    <div class="links-bar">
+        <a href="#">Visit My Website</a>
+        <a href="#">My College</a>
+        <a href="mailto:markzuckenberg@gmail.com">Email Me</a>
+        <a href="tel:982723923">Call Me</a>
+        <span class="social-text" style="color: #3b5998;">facebook</span>
+        <span class="social-text" style="color: #0077b5;">LinkedIn</span>
+        <span class="social-text" style="color: #e1306c;">Instagram</span>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Career Objective</div>
+        <div class="section-content">
+            A Career Objective or a Resume Objective is essentially a heading statement that describes your professional goals in two to three sentences. Employers looking to hire an employee for a position tend to seek candidates that are driven enough to understand what they want.
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <div class="section-title">Academic Profile</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Education</th>
+                    <th>School / College</th>
+                    <th>Board / University</th>
+                    <th>Percentage of Marks</th>
+                    <th>Year of Passing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>Karunya University</td>
+                    <td>Karunya University</td>
+                    <td>85%</td>
+                    <td>2030</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Good School</td>
+                    <td>Good School</td>
+                    <td>81%</td>
+                    <td>1845</td>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>Good School</td>
+                    <td>Good School</td>
+                    <td>85%</td>
+                    <td>200 BC</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <ol>
+            <li>Data Structures</li>
+            <li>Computer Networks</li>
+            <li>Web Technology</li>
+            <li>Python Programming</li>
+            <li>Java Programming</li>
+        </ol>
+    </div>
+
+    <hr>
+    <div class="section">
+        <div class="section-title">Advanced Technology Skills</div>
+        <ul>
+            <li>Data Science</li>
+            <li>Data Analytics</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
